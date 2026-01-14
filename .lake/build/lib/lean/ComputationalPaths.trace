@@ -1,0 +1,33 @@
+{"synthetic": false,
+ "outputs":
+ {"o": ["938590603633849772"],
+  "i": "7268142323651133367",
+  "c": "13250691509140048380"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean c:\\Users\\arfreita\\.elan\\toolchains\\leanprover--lean4---v4.24.0\\bin\\lean.exe Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\ComputationalPaths.lean -o Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths.olean -i Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths.ilean -c Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\ir\\ComputationalPaths.c --setup Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\ir\\ComputationalPaths.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["ComputationalPaths:deps",
+   [["deps",
+     [["computational_paths/ComputationalPaths:extraDep",
+       [["@computational_paths:extraDep", "1723"]]],
+      ["imports",
+       [["ComputationalPaths.Basic transitive imports (legacy)",
+         "16944728082069353123"],
+        ["ComputationalPaths.Basic:importAllArts", "15061302699470817507"],
+        ["ComputationalPaths.Path transitive imports (legacy)",
+         "7825677329180911490"],
+        ["ComputationalPaths.Path:importAllArts", "10684316437312315196"]]]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.24.0, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b",
+   "1165570713881806064"],
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\ComputationalPaths.lean",
+   "9167272613126716112"],
+  ["options", "1723"],
+  ["Module.leanArgs: #[]", "1723"]],
+ "depHash": "9751116997567667568"}

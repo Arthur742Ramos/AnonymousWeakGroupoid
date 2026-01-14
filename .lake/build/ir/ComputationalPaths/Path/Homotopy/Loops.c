@@ -1,0 +1,608 @@
+// Lean compiler output
+// Module: ComputationalPaths.Path.Homotopy.Loops
+// Imports: Init ComputationalPaths.Path.Basic ComputationalPaths.Path.Rewrite.Quot
+#include <lean/lean.h>
+#if defined(__clang__)
+#pragma clang diagnostic ignored "-Wunused-parameter"
+#pragma clang diagnostic ignored "-Wunused-label"
+#elif defined(__GNUC__) && !defined(__CLANG__)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#endif
+#ifdef __cplusplus
+extern "C" {
+#endif
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopMonoid_ctorIdx___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp___redArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_id___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv___redArg(lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___redArg(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___redArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_id(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_id(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_id___boxed(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0;
+lean_object* lean_nat_to_int(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid___lam__0(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___redArg___boxed(lean_object*, lean_object*);
+lean_object* l_ComputationalPaths_Path_symm___redArg(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___redArg___boxed(lean_object*, lean_object*);
+lean_object* l_List_appendTR___redArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopGroup_ctorIdx(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg___lam__0(lean_object*);
+lean_object* lean_nat_abs(lean_object*);
+uint8_t lean_nat_dec_eq(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp___redArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid(lean_object*, lean_object*);
+uint8_t lean_int_dec_lt(lean_object*, lean_object*);
+lean_object* lean_nat_sub(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg(lean_object*, lean_object*, lean_object*);
+static lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0;
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___boxed(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___redArg(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv___redArg(lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopGroup_ctorIdx___boxed(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___redArg___boxed(lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___boxed(lean_object*, lean_object*, lean_object*);
+lean_object* lean_nat_add(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup(lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter(lean_object*, lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopMonoid_ctorIdx(lean_object*, lean_object*, lean_object*);
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_id(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_id___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_LoopSpace_id(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv___redArg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_ComputationalPaths_Path_symm___redArg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_symm___redArg(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_inv___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_LoopSpace_inv(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp___redArg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_List_appendTR___redArg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_List_appendTR___redArg(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopSpace_comp___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopSpace_comp(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___redArg(lean_object* x_1) {
+_start:
+{
+lean_inc(x_1);
+return x_1;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_inc(x_3);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___redArg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_ComputationalPaths_Path_LoopQuot_ofLoop___redArg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_ofLoop___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_LoopQuot_ofLoop(x_1, x_2, x_3);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_id(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = lean_box(0);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_id___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_LoopQuot_id(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp___redArg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_List_appendTR___redArg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_List_appendTR___redArg(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_comp___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopQuot_comp(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv___redArg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_ComputationalPaths_Path_symm___redArg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_symm___redArg(x_3);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_inv___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_LoopQuot_inv(x_1, x_2, x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___redArg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; uint8_t x_4; 
+x_3 = lean_unsigned_to_nat(0u);
+x_4 = lean_nat_dec_eq(x_2, x_3);
+if (x_4 == 1)
+{
+lean_object* x_5; 
+lean_dec(x_1);
+x_5 = lean_box(0);
+return x_5;
+}
+else
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; lean_object* x_9; 
+x_6 = lean_unsigned_to_nat(1u);
+x_7 = lean_nat_sub(x_2, x_6);
+lean_inc(x_1);
+x_8 = l_ComputationalPaths_Path_LoopQuot_pow___redArg(x_1, x_7);
+lean_dec(x_7);
+x_9 = l_List_appendTR___redArg(x_8, x_1);
+return x_9;
+}
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopQuot_pow___redArg(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___redArg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_LoopQuot_pow___redArg(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_pow___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopQuot_pow(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = lean_unsigned_to_nat(0u);
+x_5 = lean_nat_dec_eq(x_1, x_4);
+if (x_5 == 1)
+{
+lean_dec(x_3);
+lean_inc(x_2);
+return x_2;
+}
+else
+{
+lean_object* x_6; lean_object* x_7; lean_object* x_8; 
+x_6 = lean_unsigned_to_nat(1u);
+x_7 = lean_nat_sub(x_1, x_6);
+x_8 = lean_apply_1(x_3, x_7);
+return x_8;
+}
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg(x_2, x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___redArg(x_1, x_2, x_3);
+lean_dec(x_2);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_pow_match__1_splitter(x_1, x_2, x_3, x_4);
+lean_dec(x_3);
+lean_dec(x_2);
+return x_5;
+}
+}
+static lean_object* _init_l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = lean_nat_to_int(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___redArg(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; uint8_t x_4; 
+x_3 = l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0;
+x_4 = lean_int_dec_lt(x_2, x_3);
+if (x_4 == 0)
+{
+lean_object* x_5; lean_object* x_6; 
+x_5 = lean_nat_abs(x_2);
+x_6 = l_ComputationalPaths_Path_LoopQuot_pow___redArg(x_1, x_5);
+lean_dec(x_5);
+return x_6;
+}
+else
+{
+lean_object* x_7; lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; lean_object* x_12; 
+x_7 = lean_nat_abs(x_2);
+x_8 = lean_unsigned_to_nat(1u);
+x_9 = lean_nat_sub(x_7, x_8);
+lean_dec(x_7);
+x_10 = lean_nat_add(x_9, x_8);
+lean_dec(x_9);
+x_11 = l_ComputationalPaths_Path_LoopQuot_pow___redArg(x_1, x_10);
+lean_dec(x_10);
+x_12 = l_ComputationalPaths_Path_symm___redArg(x_11);
+return x_12;
+}
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopQuot_zpow___redArg(x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___redArg___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_LoopQuot_zpow___redArg(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopQuot_zpow___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l_ComputationalPaths_Path_LoopQuot_zpow(x_1, x_2, x_3, x_4);
+lean_dec(x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+static lean_object* _init_l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0() {
+_start:
+{
+lean_object* x_1; lean_object* x_2; 
+x_1 = lean_unsigned_to_nat(0u);
+x_2 = lean_nat_to_int(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; uint8_t x_5; 
+x_4 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0;
+x_5 = lean_int_dec_lt(x_1, x_4);
+if (x_5 == 0)
+{
+lean_object* x_6; lean_object* x_7; 
+lean_dec(x_3);
+x_6 = lean_nat_abs(x_1);
+x_7 = lean_apply_1(x_2, x_6);
+return x_7;
+}
+else
+{
+lean_object* x_8; lean_object* x_9; lean_object* x_10; lean_object* x_11; 
+lean_dec(x_2);
+x_8 = lean_nat_abs(x_1);
+x_9 = lean_unsigned_to_nat(1u);
+x_10 = lean_nat_sub(x_8, x_9);
+lean_dec(x_8);
+x_11 = lean_apply_1(x_3, x_10);
+return x_11;
+}
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg(x_2, x_3, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg(x_1, x_2, x_3);
+lean_dec(x_1);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3, lean_object* x_4) {
+_start:
+{
+lean_object* x_5; 
+x_5 = l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter(x_1, x_2, x_3, x_4);
+lean_dec(x_2);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopMonoid_ctorIdx(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_unsigned_to_nat(0u);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopMonoid_ctorIdx___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_LoopMonoid_ctorIdx(x_1, x_2, x_3);
+lean_dec_ref(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid___lam__0(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_List_appendTR___redArg(x_1, x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; lean_object* x_4; lean_object* x_5; 
+x_3 = lean_alloc_closure((void*)(l_ComputationalPaths_Path_loopMonoid___lam__0), 2, 0);
+x_4 = lean_box(0);
+x_5 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_5, 0, x_3);
+lean_ctor_set(x_5, 1, x_4);
+return x_5;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopMonoid___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_loopMonoid(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopGroup_ctorIdx(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = lean_unsigned_to_nat(0u);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_LoopGroup_ctorIdx___boxed(lean_object* x_1, lean_object* x_2, lean_object* x_3) {
+_start:
+{
+lean_object* x_4; 
+x_4 = l_ComputationalPaths_Path_LoopGroup_ctorIdx(x_1, x_2, x_3);
+lean_dec_ref(x_3);
+lean_dec(x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg___lam__0(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_ComputationalPaths_Path_symm___redArg(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; lean_object* x_3; lean_object* x_4; 
+x_2 = lean_alloc_closure((void*)(l_ComputationalPaths_Path_loopGroup___redArg___lam__0), 1, 0);
+x_3 = l_ComputationalPaths_Path_loopMonoid(lean_box(0), x_1);
+x_4 = lean_alloc_ctor(0, 2, 0);
+lean_ctor_set(x_4, 0, x_3);
+lean_ctor_set(x_4, 1, x_2);
+return x_4;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_loopGroup___redArg(x_2);
+return x_3;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___redArg___boxed(lean_object* x_1) {
+_start:
+{
+lean_object* x_2; 
+x_2 = l_ComputationalPaths_Path_loopGroup___redArg(x_1);
+lean_dec(x_1);
+return x_2;
+}
+}
+LEAN_EXPORT lean_object* l_ComputationalPaths_Path_loopGroup___boxed(lean_object* x_1, lean_object* x_2) {
+_start:
+{
+lean_object* x_3; 
+x_3 = l_ComputationalPaths_Path_loopGroup(x_1, x_2);
+lean_dec(x_2);
+return x_3;
+}
+}
+lean_object* initialize_Init(uint8_t builtin, lean_object*);
+lean_object* initialize_ComputationalPaths_Path_Basic(uint8_t builtin, lean_object*);
+lean_object* initialize_ComputationalPaths_Path_Rewrite_Quot(uint8_t builtin, lean_object*);
+static bool _G_initialized = false;
+LEAN_EXPORT lean_object* initialize_ComputationalPaths_Path_Homotopy_Loops(uint8_t builtin, lean_object* w) {
+lean_object * res;
+if (_G_initialized) return lean_io_result_mk_ok(lean_box(0));
+_G_initialized = true;
+res = initialize_Init(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_ComputationalPaths_Path_Basic(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+res = initialize_ComputationalPaths_Path_Rewrite_Quot(builtin, lean_io_mk_world());
+if (lean_io_result_is_error(res)) return res;
+lean_dec_ref(res);
+l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0 = _init_l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0();
+lean_mark_persistent(l_ComputationalPaths_Path_LoopQuot_zpow___redArg___closed__0);
+l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0 = _init_l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0();
+lean_mark_persistent(l___private_ComputationalPaths_Path_Homotopy_Loops_0__ComputationalPaths_Path_LoopQuot_zpow_match__1_splitter___redArg___closed__0);
+return lean_io_result_mk_ok(lean_box(0));
+}
+#ifdef __cplusplus
+}
+#endif

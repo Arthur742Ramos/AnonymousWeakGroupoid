@@ -1,0 +1,48 @@
+{"plugins": [],
+ "options": {},
+ "name": "ComputationalPaths.Path.Homotopy.SuspensionLoop",
+ "isModule": false,
+ "importArts":
+ {"ComputationalPaths.Path.Rewrite.Step":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Rewrite\\Step.olean"],
+  "ComputationalPaths.Path.Rewrite.SimpleEquiv":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Rewrite\\SimpleEquiv.olean"],
+  "ComputationalPaths.Path.Rewrite.RwEq":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Rewrite\\RwEq.olean"],
+  "ComputationalPaths.Path.Rewrite.Rw":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Rewrite\\Rw.olean"],
+  "ComputationalPaths.Path.Rewrite.Quot":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Rewrite\\Quot.olean"],
+  "ComputationalPaths.Path.OmegaGroupoid":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\OmegaGroupoid.olean"],
+  "ComputationalPaths.Path.Homotopy.Truncation":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\Truncation.olean"],
+  "ComputationalPaths.Path.Homotopy.Sets":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\Sets.olean"],
+  "ComputationalPaths.Path.Homotopy.Reflexivity":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\Reflexivity.olean"],
+  "ComputationalPaths.Path.Homotopy.Loops":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\Loops.olean"],
+  "ComputationalPaths.Path.Homotopy.HigherHomotopy":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\HigherHomotopy.olean"],
+  "ComputationalPaths.Path.Homotopy.FundamentalGroup":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\FundamentalGroup.olean"],
+  "ComputationalPaths.Path.Homotopy.Fibration":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\Fibration.olean"],
+  "ComputationalPaths.Path.Homotopy.CoveringSpace":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Homotopy\\CoveringSpace.olean"],
+  "ComputationalPaths.Path.HIT.Pushout":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\HIT\\Pushout.olean"],
+  "ComputationalPaths.Path.Basic.UIP":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\UIP.olean"],
+  "ComputationalPaths.Path.Basic.Globular":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\Globular.olean"],
+  "ComputationalPaths.Path.Basic.Core":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\Core.olean"],
+  "ComputationalPaths.Path.Basic.Context":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\Context.olean"],
+  "ComputationalPaths.Path.Basic.Congruence":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\Congruence.olean"],
+  "ComputationalPaths.Path.Basic":
+  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic.olean"]},
+ "dynlibs": []}
