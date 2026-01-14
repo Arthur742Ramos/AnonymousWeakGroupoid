@@ -1,8 +1,0 @@
-{"plugins": [],
- "options": {},
- "name": "ComputationalPaths.Path.Basic.Congruence",
- "isModule": false,
- "importArts":
- {"ComputationalPaths.Path.Basic.Core":
-  ["Q:\\src\\ComputationalPaths\\paper\\anonymous-repo\\.lake\\build\\lib\\lean\\ComputationalPaths\\Path\\Basic\\Core.olean"]},
- "dynlibs": []}
